@@ -1,0 +1,27 @@
+.markdown-body table {
+    --smc-c-primary-light: #eee;
+
+    >tbody>tr:hover {
+        background-color: #fafafa;
+    }
+
+    td,
+    th {
+        padding: 10px 20px;
+        border-right: 0;
+        border-left: 0;
+        font-size: 14px;
+
+        em {
+            color: #4fc08d;
+        }
+    }
+
+    th {
+        border: 0;
+    }
+}
+
+.markdown-body pre {
+    margin-bottom: 15px;
+}

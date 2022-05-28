@@ -1,0 +1,4 @@
+.o-grid {
+    display: grid;
+    grid-template-columns: repeat(var(--o-grid-cols, 24), minmax(0, 1fr));
+}
