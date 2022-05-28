@@ -1,4 +1,4 @@
-import{S as D,i as h,s as k,w as m,x as f,y as o,q as p,o as l,B as u,k as q,m as B,g as i,d as _,t as d,h as I}from"../../../../../chunks/index-f9b2f9b6.js";import{D as C,S as b,a as S}from"../../../../../chunks/index-b02300a5.js";import"../../../../../chunks/index-d4e7790c.js";var j=`### \u57FA\u7840\u7528\u6CD5\r
+import{S as D,i as h,s as k,w as m,x as f,y as o,q as p,o as l,B as u,k as q,m as B,g as i,d as _,t as d,h as I}from"../../../../../chunks/index-f9b2f9b6.js";import{D as C,S as b,a as S}from"../../../../../chunks/index-7a243ecf.js";import"../../../../../chunks/index-d4e7790c.js";var j=`### \u57FA\u7840\u7528\u6CD5\r
 \r
 \`\`\`svelte\r
 <Space>\r

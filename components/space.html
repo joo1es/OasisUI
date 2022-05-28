@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="../favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="content-security-policy" content="">
+	<link rel="stylesheet" href="/_app/immutable/assets/pages/__layout.svelte-0ab6d511.css">
+	<link rel="stylesheet" href="/_app/immutable/assets/index-d4256b7b.css">
+	<link rel="modulepreload" href="/_app/immutable/start-bc291b99.js">
+	<link rel="modulepreload" href="/_app/immutable/chunks/index-f9b2f9b6.js">
+	<link rel="modulepreload" href="/_app/immutable/chunks/index-d4e7790c.js">
+	<link rel="modulepreload" href="/_app/immutable/pages/__layout.svelte-965e527e.js">
+	<link rel="modulepreload" href="/_app/immutable/pages/components/space/index.svelte-7fd72649.js">
+	<link rel="modulepreload" href="/_app/immutable/chunks/index-7a243ecf.js">
+	<link rel="modulepreload" href="/_app/immutable/pages/components/space/demo/basic/index.svelte-32380888.js">
+	<link rel="modulepreload" href="/_app/immutable/pages/components/space/demo/vertical/index.svelte-33cfbbb6.js">
+	</head>
+	<body>
+		<div>
+
+
+233223 4545
+<div class="markdown-body">
+	<h1>Space 空间</h1>
+
+	<h3>介绍</h3>
+
+	<p>每个组件都需要一个私人空间</p>
+
+	<h3>引入</h3>
+
+	<pre><code class="language-js svelte-k4vtj5">import { Space, SpaceItem } from &#39;@oasis-end/ui&#39;
+</code></pre>
+
+	<h3>基础用法</h3>
+
+	<pre><code class="language-svelte svelte-k4vtj5">&lt;Space&gt;
+    &lt;SpaceItem&gt;1&lt;/SpaceItem&gt;
+    &lt;SpaceItem&gt;2&lt;/SpaceItem&gt;
+    &lt;SpaceItem&gt;3&lt;/SpaceItem&gt;
+&lt;/Space&gt;
+</code></pre>
+<div class="o-space  o-space--wrap" style="margin-bottom: calc(0px - 10px); --o-space-right: 10px; --o-space-bottom: 10px;"><div class="o-space-item">1</div>
+        <div class="o-space-item">2</div>
+        <div class="o-space-item">3</div></div>
+    
+	<h3>垂直</h3>
+
+	<pre><code class="language-svelte svelte-k4vtj5">&lt;Space vertical&gt;
+    &lt;SpaceItem&gt;Hello&lt;/SpaceItem&gt;
+    &lt;SpaceItem&gt;Hello&lt;/SpaceItem&gt;
+    &lt;SpaceItem&gt;Hello&lt;/SpaceItem&gt;
+&lt;/Space&gt;
+</code></pre>
+<div class="o-space  o-space--wrap" style="margin-bottom: calc(0px - 10px); --o-space-right: 10px; --o-space-bottom: 10px;"><div class="o-space-item">1</div>
+        <div class="o-space-item">2</div>
+        <div class="o-space-item">3</div></div>
+
+	<h2>API</h2>
+
+	<h3>Props</h3>
+
+	<table>
+
+	<thead>
+
+	<tr>
+
+<th>参数</th>
+
+<th>说明</th>
+
+<th>类型</th>
+
+<th>默认值</th>
+</tr>
+</thead>
+
+	<tbody>
+
+	<tr>
+
+<td>size</td>
+
+<td>间距大小</td>
+
+<td>
+	<em>string | number | [string | number, string | number]</em></td>
+
+<td>10</td>
+</tr>
+
+	<tr>
+
+<td>align</td>
+
+<td>主轴对齐方式</td>
+
+<td>
+	<em>&#39;start&#39; | &#39;end&#39; | &#39;center&#39; | &#39;baseline&#39; | &#39;stretch&#39;</em></td>
+
+<td>-</td>
+</tr>
+
+	<tr>
+
+<td>justify</td>
+
+<td>交叉轴对齐方式</td>
+
+<td>
+	<em>&#39;start&#39; | &#39;end&#39; | &#39;center&#39; | &#39;space-around&#39; | &#39;space-between&#39;</em></td>
+
+<td>-</td>
+</tr>
+
+	<tr>
+
+<td>vertical</td>
+
+<td>是否垂直</td>
+
+<td>
+	<em>boolean</em></td>
+
+<td>false</td>
+</tr>
+
+	<tr>
+
+<td>wrap</td>
+
+<td>是否换行</td>
+
+<td>
+	<em>boolean</em></td>
+
+<td>true</td>
+</tr>
+
+	<tr>
+
+<td>itemStyle</td>
+
+<td>每项的样式</td>
+
+<td>
+	<em>SpaceItemStyle</em></td>
+
+<td>{}</td>
+</tr>
+
+	<tr>
+
+<td>itemClass</td>
+
+<td>每项的类</td>
+
+<td>
+	<em>SpaceItemClass</em></td>
+
+<td>{}</td>
+</tr>
+</tbody>
+</table></div>
+
+
+		<script type="module" data-sveltekit-hydrate="1gnit5q">
+		import { start } from "/_app/immutable/start-bc291b99.js";
+		start({
+			target: document.querySelector('[data-sveltekit-hydrate="1gnit5q"]').parentNode,
+			paths: {"base":"","assets":""},
+			session: {},
+			route: true,
+			spa: false,
+			trailing_slash: "never",
+			hydrate: {
+				status: 200,
+				error: null,
+				nodes: [0, 4],
+				params: {},
+				routeId: "components/space"
+			}
+		});
+	</script></div>
+	</body>
+</html>
