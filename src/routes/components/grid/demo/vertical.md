@@ -1,19 +1,23 @@
 <script lang="ts">
-    import { Space, SpaceItem } from '$lib'
+    import { Grid, GridItem } from '$lib'
 </script>
 
-#### 垂直
+#### 纵向排列
 
 ```svelte
-<Space vertical>
-    <SpaceItem>Hello</SpaceItem>
-    <SpaceItem>Hello</SpaceItem>
-    <SpaceItem>Hello</SpaceItem>
-</Space>
+<Grid gap={10}>
+    <GridItem rowSpan={2}>1</GridItem>
+    <GridItem>2</GridItem>
+    <GridItem span={10}>4</GridItem>
+    <GridItem>5</GridItem>
+</Grid>
 ```
 
-<Space vertical>
-    <SpaceItem>Hello</SpaceItem>
-    <SpaceItem>Hello</SpaceItem>
-    <SpaceItem>Hello</SpaceItem>
-</Space>
+<Grid gap={10} autoRows="50px">
+    <GridItem rowSpan={2}>
+        1
+    </GridItem>
+    <GridItem>2</GridItem>
+    <GridItem span={10}>4</GridItem>
+    <GridItem>5</GridItem>
+</Grid>

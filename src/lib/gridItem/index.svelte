@@ -12,8 +12,9 @@
 
 <div
     class="o-grid-item"
-    style:grid-column={`span ${spanComputed} / span 1`}
-    style:grid-row={`span ${rowSpan} / span 1`}
+    style:grid-column={`span ${spanComputed} / span ${spanComputed}`}
+    style:grid-row={`span ${rowSpan} / span ${rowSpan}`}
+    {...$$restProps}
 >
     <slot />
 </div>

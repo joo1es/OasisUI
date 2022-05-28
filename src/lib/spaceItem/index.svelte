@@ -2,6 +2,6 @@
     import './style.scss'
 </script>
 
-<div class="o-space-item">
+<div class="o-space-item" {...$$restProps}>
     <slot />
 </div>

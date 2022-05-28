@@ -36,6 +36,7 @@
     style:place-content={placeContent}
     style:grid-auto-flow={dense ? 'dense' : ''}
     style:grid-auto-rows={autoRows === true ? '1fr' : autoRows === false ? '' : autoRows}
+    {...$$restProps}
 >
     <slot />
 </div>

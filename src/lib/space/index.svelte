@@ -31,6 +31,7 @@
     style:justify-content={justify}
     style:--o-space-right={$formatSize[0]}
     style:--o-space-bottom={$formatSize[1]}
+    {...$$restProps}
 >
     <slot />
 </div>
