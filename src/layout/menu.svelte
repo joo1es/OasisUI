@@ -3,6 +3,7 @@
     export let list: Menu[]
     export let level: number = 0
     import { page } from '$app/stores'
+    import { goto } from '$app/navigation'
 
     $: levelArray = new Array(level).fill('')
 </script>
@@ -17,13 +18,17 @@
                 <svelte:self list={menu.children} level={level + 1} />
             </div>
         {:else}
-            <div class="menu-title" class:active={`/${$page.routeId}` === menu.link}>
+            <div
+                class="menu-title"
+                class:active={`/${$page.routeId}` === menu.link}
+                on:click={() => menu.link && goto('/OasisUI' + menu.link)}
+            >
                 {#each levelArray as _}
                     <div class="indent" />
                 {/each}
-                <a class="menu-title-text" href={menu.link}>
+                <div class="menu-title-text">
                     {menu.title}
-                </a>
+                </div>
             </div>
         {/if}
     {/each}
@@ -38,6 +43,7 @@
         padding: 10px 20px;
         font-size: 14px;
         color: #999;
+        cursor: default;
         &-text {
             flex: 1;
             overflow: hidden;
@@ -47,11 +53,11 @@
         }
         &.active {
             font-weight: bold;
-            a {
+            .menu-title-text {
                 color: #2080f0;
             }
         }
-        a {
+        .menu-title-text {
             color: #333;
             text-decoration: none;
         }
