@@ -1,0 +1,8 @@
+.o-space-item {
+    margin-right: var(--o-space-right);
+    padding-bottom: var(--o-space-bottom);
+
+    &:last-child {
+        margin-right: 0;
+    }
+}

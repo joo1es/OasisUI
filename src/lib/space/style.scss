@@ -1,0 +1,11 @@
+.o-space {
+    display: flex;
+
+    &.o-space--vertical {
+        flex-direction: column;
+    }
+
+    &.o-space--wrap {
+        flex-wrap: wrap;
+    }
+}
