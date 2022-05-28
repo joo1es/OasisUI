@@ -4,6 +4,7 @@
     export let level: number = 0
     import { page } from '$app/stores'
     import { goto } from '$app/navigation'
+    import { base } from '$app/paths'
 
     $: levelArray = new Array(level).fill('')
 </script>
@@ -21,7 +22,7 @@
             <div
                 class="menu-title"
                 class:active={`/${$page.routeId}` === menu.link}
-                on:click={() => menu.link && goto('/OasisUI' + menu.link)}
+                on:click={() => menu.link && goto(base + menu.link)}
             >
                 {#each levelArray as _}
                     <div class="indent" />
