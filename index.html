@@ -6,12 +6,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta http-equiv="content-security-policy" content=""><title>Oasis End</title>
 	<link rel="stylesheet" href="/OasisUI/_app/immutable/assets/pages/__layout.svelte-adfcc3f8.css">
-	<link rel="modulepreload" href="/OasisUI/_app/immutable/start-d1101698.js">
+	<link rel="modulepreload" href="/OasisUI/_app/immutable/start-54ca7979.js">
 	<link rel="modulepreload" href="/OasisUI/_app/immutable/chunks/index-966d6815.js">
 	<link rel="modulepreload" href="/OasisUI/_app/immutable/chunks/index-2082528d.js">
-	<link rel="modulepreload" href="/OasisUI/_app/immutable/chunks/singletons-d1fb5791.js">
-	<link rel="modulepreload" href="/OasisUI/_app/immutable/pages/__layout.svelte-3f530beb.js">
-	<link rel="modulepreload" href="/OasisUI/_app/immutable/pages/index.md-5504cad5.js">
+	<link rel="modulepreload" href="/OasisUI/_app/immutable/chunks/singletons-1b661bce.js">
+	<link rel="modulepreload" href="/OasisUI/_app/immutable/pages/__layout.svelte-d48b389c.js">
+	<link rel="modulepreload" href="/OasisUI/_app/immutable/pages/index.md-33e8cd40.js">
 	</head>
 	<body>
 		<div>
@@ -29,16 +29,35 @@
 </nav>
             </div>
 </nav></nav>
-    <div class="body markdown-body svelte-gwcqje"><h2>简介</h2>
-<p>也许世界需要一个国产的 svelte 框架？</p></div></section>
+    <div class="body markdown-body svelte-gwcqje"><h4>前言</h4>
+<p>也许世界需要一个国产的 svelte 框架？</p>
+<h4>快速开始</h4>
+<pre class="language-bash"><!-- HTML_TAG_START --><code class="language-bash"><span class="token comment"># npm i @oasis-end/ui</span>
+<span class="token function">yarn</span> <span class="token function">add</span> @oasis-end/ui</code><!-- HTML_TAG_END --></pre>
+<p>然后就可以直接在组件内部使用了，并且无需单独引入任何的 CSS</p>
+<pre class="language-svelte"><!-- HTML_TAG_START --><code class="language-svelte"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>ts<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript">
+    <span class="token keyword">import</span> <span class="token punctuation">&#123;</span> Space<span class="token punctuation">,</span> SpaceItem <span class="token punctuation">&#125;</span> <span class="token keyword">from</span> <span class="token string">"@oasis-end/ui"</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Space</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>SpaceItem</span><span class="token punctuation">></span></span>test<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>SpaceItem</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Space</span><span class="token punctuation">></span></span></code><!-- HTML_TAG_END --></pre>
+<h4>使用 Namespace 引入</h4>
+<pre class="language-svelte"><!-- HTML_TAG_START --><code class="language-svelte"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>ts<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript">
+    <span class="token keyword">import</span> <span class="token operator">*</span> <span class="token keyword">as</span> Oasis <span class="token keyword">from</span> <span class="token string">"@oasis-end/ui"</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Oasis.Space</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Oasis.SpaceItem</span><span class="token punctuation">></span></span>test<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Oasis.SpaceItem</span><span class="token punctuation">></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Oasis.Space</span><span class="token punctuation">></span></span></code><!-- HTML_TAG_END --></pre></div></section>
 
 
 
 
-		<script type="module" data-sveltekit-hydrate="g5a6du">
-		import { start } from "/OasisUI/_app/immutable/start-d1101698.js";
+		<script type="module" data-sveltekit-hydrate="11at15p">
+		import { start } from "/OasisUI/_app/immutable/start-54ca7979.js";
 		start({
-			target: document.querySelector('[data-sveltekit-hydrate="g5a6du"]').parentNode,
+			target: document.querySelector('[data-sveltekit-hydrate="11at15p"]').parentNode,
 			paths: {"base":"/OasisUI","assets":"/OasisUI"},
 			session: {},
 			route: true,
