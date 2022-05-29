@@ -1,8 +1,12 @@
 {
     "hooks": {
-        "after:bump": "svelte-kit package & node --loader ts-node/esm scripts/build-css.ts"
+        "after:bump": "svelte-kit package & node --loader ts-node/esm scripts/build-css.ts",
+        "after:release": "svelte-kit build && node --loader ts-node/esm scripts/gh-pages.ts"
     },
     "github": {
         "release": true
+    },
+    "npm": {
+        "publishPath": "./package"
     }
 }
