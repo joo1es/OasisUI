@@ -16,12 +16,8 @@ import path from 'path'
 
             console.log('[build-css]', file, '-->', outFile)
 
-            const { css } = sass.renderSync({
-                file,
-                outFile,
-                outputStyle: 'compressed',
-                omitSourceMapUrl: true,
-                includePaths: ['node_modules'],
+            const { css } = sass.compile(file, {
+                style: 'compressed'
             })
 
             fs.writeFileSync(outFile, css)

@@ -17,14 +17,14 @@
 
     setContext('oDefaultSpan', readable(defaultSpan))
 
-    const getGap = () => {
-        if (Array.isArray(gap)) {
-            return `${addUnit(gap[1])} ${addUnit(gap[0])}`
+    const getGap = (gapItem: number | string | (number | string)[]) => {
+        if (Array.isArray(gapItem)) {
+            return `${addUnit(gapItem[1])} ${addUnit(gapItem[0])}`
         } else {
-            return `${addUnit(gap)} ${addUnit(gap)}`
+            return `${addUnit(gapItem)} ${addUnit(gapItem)}`
         }
     }
-    $: gapComputed = getGap()
+    $: gapComputed = getGap(gap)
 </script>
 
 <div
