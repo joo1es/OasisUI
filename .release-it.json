@@ -7,6 +7,7 @@
         "release": true
     },
     "npm": {
+        "publish": true,
         "publishPath": "./package"
     }
 }
