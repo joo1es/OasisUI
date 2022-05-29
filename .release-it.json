@@ -1,0 +1,8 @@
+{
+    "hooks": {
+        "after:bump": "svelte-kit package & node --loader ts-node/esm scripts/build-css.ts"
+    },
+    "github": {
+        "release": true
+    }
+}

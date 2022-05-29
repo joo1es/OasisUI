@@ -13,7 +13,7 @@
         "lint": "prettier --check --plugin-search-dir=. . && eslint .",
         "format": "prettier --write --plugin-search-dir=. .",
         "deploy": "svelte-kit build && node --loader ts-node/esm scripts/gh-pages.ts",
-        "release": "svelte-kit package & node --loader ts-node/esm scripts/build-css.ts && release-it"
+        "release": "release-it"
     },
     "devDependencies": {
         "@playwright/test": "^1.21.0",
