@@ -42,3 +42,5 @@ import { Grid, GridItem } from '@oasis-end/ui'
 | ----------- | ------ | -------- | ------ |
 | span        | 占据列 | _number_ | -      |
 | rowSpan     | 占据行 | _number_ | -      |
+| offset        | 左偏移 | _number_ | -      |
+| offsetRight     | 右偏移 | _number_ | -      |
