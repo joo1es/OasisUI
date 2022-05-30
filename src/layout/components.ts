@@ -13,6 +13,10 @@ export default [
             {
                 title: 'Grid 网格',
                 link: '/components/grid'
+            },
+            {
+                title: 'Contain 容纳',
+                link: '/components/contain'
             }
         ]
     }
