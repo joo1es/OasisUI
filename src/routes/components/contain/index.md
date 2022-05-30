@@ -2,7 +2,7 @@
     import Basic from './demo/basic.md'
 </script>
 
-# Contain 容纳
+## Contain 容纳
 
 #### 介绍
 
