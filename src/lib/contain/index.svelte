@@ -30,7 +30,7 @@
     const { basic, of } = useNamespace('contain')
 </script>
 
-<div bind:this={basicRef} class={basic}>
+<div bind:this={basicRef} class={basic} {...$$restProps}>
     {#if blur && background}
         <div class={of('background')} class:blur style:background />
     {/if}
