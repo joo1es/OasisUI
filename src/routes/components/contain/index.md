@@ -14,8 +14,6 @@
 import { Contain } from '@oasis-end/ui'
 ```
 
-#### 基础用法
-
 <Basic />
 
 ## API
