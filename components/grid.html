@@ -5,18 +5,19 @@
 		<link rel="icon" href="/OasisUI/favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta http-equiv="content-security-policy" content=""><title>Oasis End</title>
-	<link rel="stylesheet" href="/OasisUI/_app/immutable/assets/pages/__layout.svelte-adfcc3f8.css">
-	<link rel="stylesheet" href="/OasisUI/_app/immutable/assets/style-1e1b5b89.css">
-	<link rel="modulepreload" href="/OasisUI/_app/immutable/start-f7725fe9.js">
-	<link rel="modulepreload" href="/OasisUI/_app/immutable/chunks/index-966d6815.js">
-	<link rel="modulepreload" href="/OasisUI/_app/immutable/chunks/index-2082528d.js">
+	<link rel="stylesheet" href="/OasisUI/_app/immutable/assets/pages/__layout.svelte-387c578c.css">
+	<link rel="stylesheet" href="/OasisUI/_app/immutable/assets/style-965b6e6e.css">
+	<link rel="stylesheet" href="/OasisUI/_app/immutable/assets/pages/components/grid/demo/vertical.md-c38ff313.css">
+	<link rel="modulepreload" href="/OasisUI/_app/immutable/start-f67852cd.js">
+	<link rel="modulepreload" href="/OasisUI/_app/immutable/chunks/index-34629744.js">
+	<link rel="modulepreload" href="/OasisUI/_app/immutable/chunks/index-a17d7c15.js">
 	<link rel="modulepreload" href="/OasisUI/_app/immutable/chunks/singletons-1b661bce.js">
-	<link rel="modulepreload" href="/OasisUI/_app/immutable/pages/__layout.svelte-d48b389c.js">
-	<link rel="modulepreload" href="/OasisUI/_app/immutable/pages/components/grid/index.md-d49dd822.js">
-	<link rel="modulepreload" href="/OasisUI/_app/immutable/pages/components/grid/demo/basic.md-8fdb41d8.js">
-	<link rel="modulepreload" href="/OasisUI/_app/immutable/chunks/style-aa086b95.js">
-	<link rel="modulepreload" href="/OasisUI/_app/immutable/chunks/index-ac42480e.js">
-	<link rel="modulepreload" href="/OasisUI/_app/immutable/pages/components/grid/demo/vertical.md-ac333635.js">
+	<link rel="modulepreload" href="/OasisUI/_app/immutable/pages/__layout.svelte-8f820ee4.js">
+	<link rel="modulepreload" href="/OasisUI/_app/immutable/pages/components/grid/index.md-758e8afc.js">
+	<link rel="modulepreload" href="/OasisUI/_app/immutable/pages/components/grid/demo/basic.md-6807fca8.js">
+	<link rel="modulepreload" href="/OasisUI/_app/immutable/chunks/index-8a5a6a18.js">
+	<link rel="modulepreload" href="/OasisUI/_app/immutable/chunks/addUnit-4a3cc98c.js">
+	<link rel="modulepreload" href="/OasisUI/_app/immutable/pages/components/grid/demo/vertical.md-2b8623ee.js">
 	</head>
 	<body>
 		<div>
@@ -25,11 +26,18 @@
 <header class="svelte-gwcqje">Oasis<span style="color: #2080f0">-End</span></header>
 <section class="main svelte-gwcqje"><nav class="menus svelte-gwcqje"><nav><div class="menu-title svelte-14cq86t">
                 <div class="menu-title-text svelte-14cq86t">首页</div>
+            </div><div class="menu-title svelte-14cq86t">基础组件</div>
+            <div class="menu-children"><nav><div class="menu-title svelte-14cq86t"><div class="indent svelte-14cq86t"></div>
+                <div class="menu-title-text svelte-14cq86t">Icon 图标</div>
+            </div>
+</nav>
             </div><div class="menu-title svelte-14cq86t">布局组件</div>
             <div class="menu-children"><nav><div class="menu-title svelte-14cq86t"><div class="indent svelte-14cq86t"></div>
                 <div class="menu-title-text svelte-14cq86t">Space 空间</div>
             </div><div class="menu-title svelte-14cq86t active"><div class="indent svelte-14cq86t"></div>
                 <div class="menu-title-text svelte-14cq86t">Grid 网格</div>
+            </div><div class="menu-title svelte-14cq86t"><div class="indent svelte-14cq86t"></div>
+                <div class="menu-title-text svelte-14cq86t">Contain 容纳</div>
             </div>
 </nav>
             </div>
@@ -46,22 +54,38 @@
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>GridItem</span> <span class="token attr-name">span=</span><span class="token language-javascript"><span class="token punctuation">&#123;</span><span class="token number">10</span><span class="token punctuation">&#125;</span></span><span class="token punctuation">></span></span>4<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>GridItem</span><span class="token punctuation">></span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>GridItem</span><span class="token punctuation">></span></span>5<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>GridItem</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Grid</span><span class="token punctuation">></span></span></code><!-- HTML_TAG_END --></pre>
-<div class="o-grid" style="--o-grid-cols: 24; --o-grid-item--overflow: initial; grid-gap: 10px 10px; grid-auto-flow: dense;"><div class="o-grid-item" style="grid-column: span 1 / span 1; grid-row: span 1 / span 1;">1</div>
-    <div class="o-grid-item" style="grid-column: span 1 / span 1; grid-row: span 1 / span 1;">2</div>
-    <div class="o-grid-item" style="grid-column: span 10 / span 10; grid-row: span 1 / span 1;">4</div>
-    <div class="o-grid-item" style="grid-column: span 1 / span 1; grid-row: span 1 / span 1;">5</div></div>
+<div class="o-grid" style="--o-grid-cols: 24; --o-grid-item--overflow: initial; grid-gap: 10px 10px; grid-auto-flow: dense;">
+<div class="o-grid-item" style="grid-column: span 1 / span 1; grid-row: span 1 / span 1;">1</div>
+
+    
+<div class="o-grid-item" style="grid-column: span 1 / span 1; grid-row: span 1 / span 1;">2</div>
+
+    
+<div class="o-grid-item" style="grid-column: span 10 / span 10; grid-row: span 1 / span 1;">4</div>
+
+    
+<div class="o-grid-item" style="grid-column: span 1 / span 1; grid-row: span 1 / span 1;">5</div>
+</div>
 <h4>纵向排列</h4>
 <pre class="language-svelte"><!-- HTML_TAG_START --><code class="language-svelte"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Grid</span> <span class="token attr-name">gap=</span><span class="token language-javascript"><span class="token punctuation">&#123;</span><span class="token number">10</span><span class="token punctuation">&#125;</span></span><span class="token punctuation">></span></span>
-    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>GridItem</span> <span class="token attr-name">rowSpan=</span><span class="token language-javascript"><span class="token punctuation">&#123;</span><span class="token number">2</span><span class="token punctuation">&#125;</span></span><span class="token punctuation">></span></span>1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>GridItem</span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>GridItem</span> <span class="token attr-name">span=</span><span class="token language-javascript"><span class="token punctuation">&#123;</span><span class="token number">5</span><span class="token punctuation">&#125;</span></span> <span class="token attr-name">rowSpan=</span><span class="token language-javascript"><span class="token punctuation">&#123;</span><span class="token number">2</span><span class="token punctuation">&#125;</span></span><span class="token punctuation">></span></span>1<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>GridItem</span><span class="token punctuation">></span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>GridItem</span><span class="token punctuation">></span></span>2<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>GridItem</span><span class="token punctuation">></span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>GridItem</span> <span class="token attr-name">span=</span><span class="token language-javascript"><span class="token punctuation">&#123;</span><span class="token number">10</span><span class="token punctuation">&#125;</span></span><span class="token punctuation">></span></span>4<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>GridItem</span><span class="token punctuation">></span></span>
     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>GridItem</span><span class="token punctuation">></span></span>5<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>GridItem</span><span class="token punctuation">></span></span>
 <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Grid</span><span class="token punctuation">></span></span></code><!-- HTML_TAG_END --></pre>
-<div class="o-grid" style="--o-grid-cols: 24; --o-grid-item--overflow: initial; grid-gap: 10px 10px; grid-auto-flow: dense; grid-auto-rows: 50px;"><div class="o-grid-item" style="grid-column: span 1 / span 1; grid-row: span 2 / span 2;">1
-    </div>
-    <div class="o-grid-item" style="grid-column: span 1 / span 1; grid-row: span 1 / span 1;">2</div>
-    <div class="o-grid-item" style="grid-column: span 10 / span 10; grid-row: span 1 / span 1;">4</div>
-    <div class="o-grid-item" style="grid-column: span 1 / span 1; grid-row: span 1 / span 1;">5</div></div>
+<div class="gird-demo svelte-14jcnx3"><div class="o-grid" style="--o-grid-cols: 24; --o-grid-item--overflow: initial; grid-gap: 10px 10px; grid-auto-flow: dense; grid-auto-rows: 50px;">
+<div class="o-grid-item" style="grid-column: span 5 / span 5; grid-row: span 2 / span 2;">1
+        </div>
+
+        
+<div class="o-grid-item" style="grid-column: span 1 / span 1; grid-row: span 1 / span 1;">2</div>
+
+        
+<div class="o-grid-item" style="grid-column: span 10 / span 10; grid-row: span 1 / span 1;">4</div>
+
+        
+<div class="o-grid-item" style="grid-column: span 1 / span 1; grid-row: span 1 / span 1;">5</div>
+</div></div>
 <h2>Gird API</h2>
 <h3>Props</h3>
 <table><thead><tr><th>参数</th>
@@ -113,15 +137,23 @@
 <tr><td>rowSpan</td>
 <td>占据行</td>
 <td><em>number</em></td>
+<td>-</td></tr>
+<tr><td>offset</td>
+<td>左偏移</td>
+<td><em>number</em></td>
+<td>-</td></tr>
+<tr><td>offsetRight</td>
+<td>右偏移</td>
+<td><em>number</em></td>
 <td>-</td></tr></tbody></table></div></section>
 
 
 
 
-		<script type="module" data-sveltekit-hydrate="123uyt6">
-		import { start } from "/OasisUI/_app/immutable/start-f7725fe9.js";
+		<script type="module" data-sveltekit-hydrate="y1524k">
+		import { start } from "/OasisUI/_app/immutable/start-f67852cd.js";
 		start({
-			target: document.querySelector('[data-sveltekit-hydrate="123uyt6"]').parentNode,
+			target: document.querySelector('[data-sveltekit-hydrate="y1524k"]').parentNode,
 			paths: {"base":"/OasisUI","assets":"/OasisUI"},
 			session: {},
 			route: true,
@@ -130,7 +162,7 @@
 			hydrate: {
 				status: 200,
 				error: null,
-				nodes: [0, 4],
+				nodes: [0, 6],
 				params: {},
 				routeId: "components/grid"
 			}

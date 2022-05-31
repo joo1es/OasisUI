@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/OasisUI/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta http-equiv="content-security-policy" content=""><title>Oasis End</title>
+	<link rel="stylesheet" href="/OasisUI/_app/immutable/assets/pages/__layout.svelte-387c578c.css">
+	<link rel="stylesheet" href="/OasisUI/_app/immutable/assets/style-965b6e6e.css">
+	<link rel="modulepreload" href="/OasisUI/_app/immutable/start-f67852cd.js">
+	<link rel="modulepreload" href="/OasisUI/_app/immutable/chunks/index-34629744.js">
+	<link rel="modulepreload" href="/OasisUI/_app/immutable/chunks/index-a17d7c15.js">
+	<link rel="modulepreload" href="/OasisUI/_app/immutable/chunks/singletons-1b661bce.js">
+	<link rel="modulepreload" href="/OasisUI/_app/immutable/pages/__layout.svelte-8f820ee4.js">
+	<link rel="modulepreload" href="/OasisUI/_app/immutable/pages/components/icon/index.md-a11a71a1.js">
+	<link rel="modulepreload" href="/OasisUI/_app/immutable/pages/components/icon/demo/basic.md-72f13211.js">
+	</head>
+	<body>
+		<div>
+
+
+<header class="svelte-gwcqje">Oasis<span style="color: #2080f0">-End</span></header>
+<section class="main svelte-gwcqje"><nav class="menus svelte-gwcqje"><nav><div class="menu-title svelte-14cq86t">
+                <div class="menu-title-text svelte-14cq86t">首页</div>
+            </div><div class="menu-title svelte-14cq86t">基础组件</div>
+            <div class="menu-children"><nav><div class="menu-title svelte-14cq86t active"><div class="indent svelte-14cq86t"></div>
+                <div class="menu-title-text svelte-14cq86t">Icon 图标</div>
+            </div>
+</nav>
+            </div><div class="menu-title svelte-14cq86t">布局组件</div>
+            <div class="menu-children"><nav><div class="menu-title svelte-14cq86t"><div class="indent svelte-14cq86t"></div>
+                <div class="menu-title-text svelte-14cq86t">Space 空间</div>
+            </div><div class="menu-title svelte-14cq86t"><div class="indent svelte-14cq86t"></div>
+                <div class="menu-title-text svelte-14cq86t">Grid 网格</div>
+            </div><div class="menu-title svelte-14cq86t"><div class="indent svelte-14cq86t"></div>
+                <div class="menu-title-text svelte-14cq86t">Contain 容纳</div>
+            </div>
+</nav>
+            </div>
+</nav></nav>
+    <div class="body markdown-body svelte-gwcqje"><h2>Icon 图标</h2>
+<h4>介绍</h4>
+<p>一个能让网页更加鲜活的东西，推荐使用 <a href="https://joo1es.github.io/OasisIonicons/" rel="nofollow">Oasis Ionicons</a></p>
+<h4>引入</h4>
+<pre class="language-js"><!-- HTML_TAG_START --><code class="language-js"><span class="token keyword">import</span> <span class="token punctuation">&#123;</span> Icon <span class="token punctuation">&#125;</span> <span class="token keyword">from</span> <span class="token string">'@oasis-end/ui'</span></code><!-- HTML_TAG_END --></pre>
+<h4>基础用法</h4>
+<pre class="language-svelte"><!-- HTML_TAG_START --><code class="language-svelte"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Icon</span> <span class="token attr-name">size=</span><span class="token language-javascript"><span class="token punctuation">&#123;</span><span class="token number">60</span><span class="token punctuation">&#125;</span></span><span class="token punctuation">></span></span>
+    😄
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Icon</span><span class="token punctuation">></span></span></code><!-- HTML_TAG_END --></pre>
+<div class="o-icon" style="font-size: 60px;">😄
+</div>
+<h4>导入图标 / 设置颜色</h4>
+<p>为了保证在 dev 环境仍然能按需引入，可以直接导入具体的组件</p>
+<pre class="language-svelte"><!-- HTML_TAG_START --><code class="language-svelte"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>ts<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token script"><span class="token language-javascript">
+    <span class="token keyword">import</span> Add <span class="token keyword">from</span> <span class="token string">'@oasis-end/ionicons/icons/Add.svelte'</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">></span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Icon</span> <span class="token attr-name">size=</span><span class="token language-javascript"><span class="token punctuation">&#123;</span><span class="token number">60</span><span class="token punctuation">&#125;</span></span> <span class="token attr-name">color</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>red<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>Add</span> <span class="token punctuation">/></span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>Icon</span><span class="token punctuation">></span></span></code><!-- HTML_TAG_END --></pre>
+<div class="o-icon" style="font-size: 60px; color: red;"><svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512"><title>ionicons-v5-a</title><line x1="256" y1="112" x2="256" y2="400" style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"></line><line x1="400" y1="256" x2="112" y2="256" style="fill:none;stroke:currentColor;stroke-linecap:round;stroke-linejoin:round;stroke-width:32px"></line></svg></div>
+<h2>API</h2>
+<h3>Props</h3>
+<table><thead><tr><th>参数</th>
+<th>说明</th>
+<th>类型</th>
+<th>默认值</th></tr></thead>
+<tbody><tr><td>size</td>
+<td>图标大小</td>
+<td><em>string | number</em></td>
+<td>-</td></tr>
+<tr><td>color</td>
+<td>图标颜色</td>
+<td><em>string</em></td>
+<td>-</td></tr></tbody></table></div></section>
+
+
+
+
+		<script type="module" data-sveltekit-hydrate="1gfkv4d">
+		import { start } from "/OasisUI/_app/immutable/start-f67852cd.js";
+		start({
+			target: document.querySelector('[data-sveltekit-hydrate="1gfkv4d"]').parentNode,
+			paths: {"base":"/OasisUI","assets":"/OasisUI"},
+			session: {},
+			route: true,
+			spa: false,
+			trailing_slash: "never",
+			hydrate: {
+				status: 200,
+				error: null,
+				nodes: [0, 8],
+				params: {},
+				routeId: "components/icon"
+			}
+		});
+	</script></div>
+	</body>
+</html>
