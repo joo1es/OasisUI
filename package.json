@@ -16,6 +16,7 @@
         "release": "release-it"
     },
     "devDependencies": {
+        "@oasis-end/ionicons": "^0.0.2",
         "@playwright/test": "^1.21.0",
         "@sveltejs/adapter-auto": "next",
         "@sveltejs/adapter-static": "^1.0.0-next.32",
@@ -43,7 +44,6 @@
     },
     "type": "module",
     "dependencies": {
-        "@oasis-end/ionicons": "^0.0.2",
         "prism-svelte": "^0.5.0",
         "prismjs": "^1.28.0"
     }
