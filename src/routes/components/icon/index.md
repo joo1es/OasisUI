@@ -6,7 +6,7 @@
 
 #### 介绍
 
-一个能让网页更加鲜活的东西
+一个能让网页更加鲜活的东西，推荐使用 [Oasis Ionicons](https://joo1es.github.io/OasisIonicons/)
 
 #### 引入
 
