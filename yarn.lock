@@ -126,6 +126,15 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
+"@oasis-end/ionicons@^0.0.2":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@oasis-end/ionicons/-/ionicons-0.0.2.tgz#c344b254af418c62283c5cfa068620f5d44cd937"
+  integrity sha512-y+Q5wENPRcIhUYM7BkJQtcggf9FlN7/xJ9A5LybMw7mvlOJceyvN0NjiHXPxeKEjF27o1oTfPa1AZ/gczvaepQ==
+  dependencies:
+    prism-svelte "^0.5.0"
+    prismjs "^1.28.0"
+    star-markdown-css "^0.3.3"
+
 "@octokit/auth-token@^2.4.4":
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/@octokit/auth-token/-/auth-token-2.5.0.tgz#27c37ea26c205f28443402477ffd261311f21e36"

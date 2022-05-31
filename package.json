@@ -43,8 +43,8 @@
     },
     "type": "module",
     "dependencies": {
+        "@oasis-end/ionicons": "^0.0.2",
         "prism-svelte": "^0.5.0",
-        "prismjs": "^1.28.0",
-        "star-markdown-css": "^0.3.3"
+        "prismjs": "^1.28.0"
     }
 }

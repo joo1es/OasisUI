@@ -2,7 +2,7 @@
     import 'prismjs/themes/prism.css'
     import components from '../layout/components'
     import Menu from '../layout/menu.svelte'
-    import 'star-markdown-css'
+    import './markdown.scss'
     import './table.scss'
 </script>
 
