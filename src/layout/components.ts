@@ -4,6 +4,15 @@ export default [
         link: '/'
     },
     {
+        title: '基础组件',
+        children: [
+            {
+                title: 'Icon 图标',
+                link: '/components/icon'
+            }
+        ]
+    },
+    {
         title: '布局组件',
         children: [
             {
