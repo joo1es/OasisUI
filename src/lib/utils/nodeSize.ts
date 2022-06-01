@@ -1,8 +1,6 @@
 export function size(node: Element, cb?: (width: number, height: number) => void) {
     const resizeObserver = new ResizeObserver(([entry]) => {
-        const contentWidth = entry.contentRect.width
-        const contentHeight = entry.contentRect.height
-        cb?.(contentWidth, contentHeight)
+        cb?.(entry.contentRect.width, entry.contentRect.height)
     })
     resizeObserver.observe(node)
     return {
