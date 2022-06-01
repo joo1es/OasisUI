@@ -26,6 +26,10 @@ export default [
             {
                 title: 'Contain 容纳',
                 link: '/components/contain'
+            },
+            {
+                title: 'AspectRatio 纵横比',
+                link: '/components/aspectRatio'
             }
         ]
     }
